@@ -18,8 +18,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mdc4qf3jo1t37smhd5uv6jq9qscp44qavib6piv6i6l741q7pqrvvc9b.qc.dolfincdnx.net:10443/xdispatchb711315677005329/bigota.d.miui.com/V14.0.1.0.SJNCNXM/miui_CEZANNE_V14.0.1.0.SJNCNXM_cbba55822d_12.0.zip?bsreqid=e588f45c891fbd58ce1a3a1b36a861b6&bsxdisp=se
-  ROM_NAME: k30u
+  ROM_URL: https://bigota.d.miui.com/V13.0.5.0.SJNCNXM/miui_CEZANNE_V13.0.5.0.SJNCNXM_c78bb38246_12.0.zip
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
 
