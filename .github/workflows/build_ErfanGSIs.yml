@@ -25,7 +25,11 @@ env:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python: [3.9]
 
     steps:
        - name: Checkout
